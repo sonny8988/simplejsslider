@@ -1,0 +1,59 @@
+#bar{
+	width:200px;
+	height:12px;
+	float: left;
+	position:relative;
+}
+ 
+#track{
+        position:absolute;
+	width:100%;
+	height:2px;
+	border:1px solid black;
+        top:50%;
+        margin-top:-1px;
+        
+
+
+}
+
+#value{
+	height:12px;
+	width:40px;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 600;
+	color: #114b70;
+
+}
+ 
+#info{
+	width:200px;
+	height:25px;
+	border:1px solid black;	
+}
+
+#button {
+
+        background: #114b70;
+        position:absolute;
+	left: -8px;
+        top:50%;
+        margin-top:-8px;
+	z-index: 2;
+	
+        background: -webkit-linear-gradient(top, #114b70, #2296de);
+        background: -moz-linear-gradient(top, #114b70, #2296de);
+        background: linear-gradient(top, #114b70, #2296de);
+
+      
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+      
+        border: 1px solid black;
+        width: 16px;
+        height: 16px;
+}
